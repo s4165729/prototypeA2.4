@@ -9,7 +9,7 @@ const frequencies = [
     523.25
 ];
 
-const names = ['C', 'D', 'E', 'F', 'G', 'A', 'B', 'C'];
+const names = ['C','D','E','F','G','A','B','C'];
 
 let audioContext = null;
 const on = {};
@@ -47,7 +47,7 @@ function stop(i) {
 
     on [i].stop();
     on[i] = 0;
-    
+
     buttons[i].classList.remove('on');
 }
 
